@@ -17,7 +17,7 @@ h1 {
   margin: 20px 0;
 }
 
-#search {
+#search, select {
   width: 500px;
   color: black;
   border: lightblue solid 2px;
