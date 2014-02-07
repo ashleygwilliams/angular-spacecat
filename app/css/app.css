@@ -11,6 +11,22 @@ h1 {
   text-align: center;
 }
 
+/* cats */
+
+.cat {
+  margin: 20px 0;
+}
+
+.cat-pic {
+
+}
+
+.info {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+}
+
 /* sagan */
 #sagan {
   position: fixed;

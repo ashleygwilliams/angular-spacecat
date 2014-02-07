@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+ <!-- add the ng-app *attribute* 
+      ng-app points to the ngApp *directive* -->
+<html lang="en" ng-app="spacecatApp">
   <head>
     <meta charset="utf-8"/>
     <title>SpaceCAT! AngularJS Demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
     <link href="css/app.css" rel="stylesheet"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
   </head>
-  <body>
+  <!-- set your controller here
+      this allows us to bind our model 
+      and our view
+
+      this will be defined in js/controllers.js -->
+  <body ng-controller="CatListCtrl">
     <div class="container-fluid">
       <div class="billions"></div>
       <img id="sagan" src="img/sagan.png"/>
       <h1>Intergalactic Space Cat Registry</h1>
+      <div class="cat-container container">
+        <ul>
+          <!-- add the attribute ng-repeat
+              the value is "resource in set"
+              this says make an li for every cat in the set cats --> 
+          <li ng-repeat="cat in cats" class="cat">
+            <img ng-src="img/spacecats/{{cat.name}}.jpg" class="cat-pic"/>
+            <div class="info">
+              <h3>{{cat.name}}</h3>
+              <p>{{cat.bio}}</p>
+              <ul>
+                <li>Color: {{cat.color}}</li>
+                <li>Personality: {{cat.personality}}</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
