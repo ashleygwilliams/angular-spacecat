@@ -4,5 +4,6 @@
       "bio": "The only home we've ever known dream of the mind's eye, prime number.",
       "color": "brown",
       "personality": "relaxed",
-      "planets": 7}
+      "planets": 7,
+      "available": false}
 ]

@@ -4,5 +4,6 @@
       "bio": "Emerged into consciousness how far away shores of the cosmic ocean Cambrian explosion",
       "color": "white",
       "personality": "relaxed",
-      "planets": 2}
+      "planets": 2,
+      "available": false}
 ]

@@ -4,5 +4,6 @@
       "bio": "stirred by starlight, gathered by gravity worldlets Jean-François Champollion at the edge of forever billions",
       "color": "grey",
       "personality": "aggresive",
-      "planets": 666}
+      "planets": 666,
+      "available": false}
 ]

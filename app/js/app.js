@@ -11,7 +11,8 @@
 // spacecatControllers - al
 var spacecatApp = angular.module('spacecatApp', [
   'ngRoute',
-  'spacecatControllers'
+  'spacecatControllers',
+  'spacecatFilters'
 ]);
 
 spacecatApp.config(['$routeProvider',
