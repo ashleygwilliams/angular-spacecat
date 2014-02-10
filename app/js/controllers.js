@@ -15,5 +15,10 @@ spacecatControllers.controller('CatDetailCtrl', ['$scope', '$routeParams', '$htt
   function($scope, $routeParams, $http) {
     $http.get("cats/cats-" + $routeParams.catId + '.json').success(function(data) {
       $scope.cat = data[0];
+      $scope.mainImg = data[0].images[0];
     });
+
+    $scope.setImage = function(imageName) {
+      $scope.mainImg = imageName;
+    }
   }]);

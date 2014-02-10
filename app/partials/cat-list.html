@@ -18,7 +18,7 @@
           <!-- use pipe filter: query to auto sort your cats -->
           <li ng-repeat="cat in cats | filter:query | orderBy:orderProp" class="cat">
             <a href="#/cats/{{cat.id}}">
-              <img ng-src="img/spacecats/{{cat.name}}-thumb.jpg" class="cat-thumb"/>
+              <img ng-src="img/spacecats/{{cat.name}}-thumb.jpg"/>
             </a>
             <div class="info">
               <a href="#/cats/{{cat.id}}">

@@ -5,5 +5,6 @@
       "color": "brown",
       "personality": "relaxed",
       "planets": 7,
-      "available": false}
+      "available": false,
+      "images": ["img/spacecats/yucky", "img/spacecats/yucky_inv"]}
 ]

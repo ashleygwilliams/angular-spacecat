@@ -48,6 +48,22 @@ h1 {
   width: 100%;
 }
 
+.thumbs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.thumbs li {
+  display: inline;
+  float: right;
+}
+
+.cat-thumb {
+  width: 100px;
+  margin: 10px;
+}
+
 .cat {
   margin: 20px 0;
 }

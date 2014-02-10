@@ -5,5 +5,6 @@
       "color": "white",
       "personality": "relaxed",
       "planets": 2,
-      "available": false}
+      "available": false,
+      "images": ["img/spacecats/bigbelly", "img/spacecats/bigbelly_inv"]}
 ]
