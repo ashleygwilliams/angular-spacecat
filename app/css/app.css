@@ -10,6 +10,10 @@ h1 {
   font-size: 64px;
 }
 
+.back {
+  font-size: 32px;
+}
+
 .jumbo {
   text-align: center;
   padding: 20px;
@@ -24,17 +28,33 @@ h1 {
   padding: 10px;
   margin: 20px;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 /* cats */
+
+.cat-container {
+  margin: auto;
+  width: 50%;
+}
+
+.cats {
+  list-style: none;
+  display: block;
+}
+
+.cat-pic {
+  margin: 20px 0 0 0;
+  width: 100%;
+}
 
 .cat {
   margin: 20px 0;
 }
 
-.cat-pic {
-
+a {
+  color: lightblue;
+  font-weight: 800;
 }
 
 .info {
